@@ -1,0 +1,152 @@
+/*Fazendo o reset*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/*Colocando os textos em branco*/
+
+* {
+    color: white;
+}
+
+/*Adicionando cores ao cabeçalhos*/
+
+body > header {
+    background-color: #7557e1;
+    padding: 16px 0;
+    color: #F5F7FF;
+}
+
+/*Organizando o cabeçalho*/
+
+header .containers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Organizando o título*/
+
+header .containers h1{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+/*Ajustando a posição dos links de navegação*/
+
+header li {
+    display: inline;
+    justify-content: space-between;
+    margin-left: 16px;
+}
+
+/*Personalizando os links de navegação*/
+
+header li a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*Limitando os elementos da página*/
+
+.containers {
+    width: 1800px;
+    margin: 0px auto;
+}
+
+/*Ajustando os posts*/
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/*Ajustando as imagens dos posts*/
+
+.articles article img {
+    width: 100%;
+}
+
+/*Limitando o espaço dos posts na tela*/
+
+.articles article{
+    width: 30%;
+}
+
+/*Adicionando espaçamento lateral entre as seções*/
+
+section {
+    display: flex;
+    padding: 16px 0;
+}
+
+/*Ajustando o espaçamento entre os posts*/
+
+section h3, 
+.articles article {
+    margin-bottom: 16px;
+}
+
+/*Adicionando uma margem entre os posts*/
+
+.articles article {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+/*Personalizando os botões "Ler mais"*/
+
+.articles article a {
+    background-color: #7557e1;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 8px;
+}
+
+/*Efeito de sublinhado no botão "Ler mais"*/
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+/*Ajustando a posição das datas*/
+
+.article time {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/*Adicionando fonte nos parágrafos*/
+
+.articles article p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Aumentando a fonte dos títulos dos posts*/
+
+.article article h3 {
+    font-size: 24px;
+}
+
+/*Aumentando a fonte dos títulos das seções*/
+
+section h2 {
+    font-size: 32px;
+}
+
+/*Colorindo a seção Filmes*/
+
+#filmes, #jogos, #animes {
+    background-color: #1f1f1f;
+}

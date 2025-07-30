@@ -1,0 +1,53 @@
+		     Sequência lógica da Tarefa:
+
+--------------------------------------------------------------------------
+1 - Fazer o reset;
+--------------------------------------------------------------------------
+2 - Colorir o Background do cabeçalho, aplicar espaçamento e aplicar a cor
+na letra;
+--------------------------------------------------------------------------
+3 - Flexibilizar a div do cabeçalho e colocar os elementos lado a lado,
+alinhar os items de forma que fique centralizado na tela e separar o 
+elementos de forma igual e centralizada;
+--------------------------------------------------------------------------
+4 - Alinhar o título, mudar a fonte dele, deixar ele em negrito e colocar
+uma margem à esquerda de 16px;
+--------------------------------------------------------------------------
+5 - Colorir as letras dos botões de navegação, e tirar o sublinhado deles;
+--------------------------------------------------------------------------
+6 - Limitar a largura dos elementos da página em 1366px e aplicar uma mar-
+gem de 0px na vertical e auto na horizontal;
+--------------------------------------------------------------------------
+7 - Flexibilizar a div dos artigos, quebrar a linha quando os elementos
+não couberem no espaço delimitado e separar os elementos de forma horizon-
+tal e ordenada;
+--------------------------------------------------------------------------
+8 - Aplicar 100% de largura nas imagens dos artigos;
+--------------------------------------------------------------------------
+9 - Limitar cada post em 30% da tela;
+--------------------------------------------------------------------------
+10 - Adicionar um espaçamentos de 16px na horizontal e 0 na vertical para
+as seções;
+--------------------------------------------------------------------------
+11 - Adicionar uma margem de 16px em baixo dos titulos de cada seção e
+em cada post;
+--------------------------------------------------------------------------
+12 - Adicionar uma margem de 8px em cima e em baixo dos posts;
+--------------------------------------------------------------------------
+13 - Adicionar cor ao backgorund dos botões "Ler mais", adicionar cor a 
+letra dos botões, adicionar um espaçamento de 8px, definir que os botões
+vão ser exibidos em linha, mas com dimensões definidas, tirar o sublinhado
+do texto do botão, deixar a fonte dele em negrito e adicionar uma margem
+de 8px no topo de cada um;
+--------------------------------------------------------------------------
+14 - Implementar a funcionalidade de que quando o mouse passar sobre o
+botão "Ler mais", o texto fique sublinhado;
+--------------------------------------------------------------------------
+15 - Colocar uma fonte nos parágrafos e nos botões de cada post;
+--------------------------------------------------------------------------
+16 - Aumentar a fonte dos títulos de cada post em 24px;
+--------------------------------------------------------------------------
+17 - Aumentar a fonte dos títulos de cada seção em 32xp;
+--------------------------------------------------------------------------
+18 - Colorir o background de cada seção, e personalizar os botões.
+--------------------------------------------------------------------------
