@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskFy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/checkbox-logo.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="title-page">
+            <h1>TaskFy</h1>
+            <img src="./images/checkbox-logo.png" alt="">
+        </div>
+        <section>
+            <div class="content">
+                <div class="content-add-task">
+                    <h2>adicionar uma tarefa:</h2>
+                    <form>
+                        <div class="name-task">
+                            <input type="text" id="name-task" placeholder="nome da tarefa">
+                        </div>
+                        <p id="message"></p>
+                        <div class="button-add">
+                            <button id="button-add" type="submit">Adicionar</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="content-list">
+                    <div class="title-list">
+                        <h2>lista de tarefas:</h2>
+                        <svg id="close" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                            <path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path>
+                        </svg>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            
+                        </ul>
+                    </div>
+                </div>
+        </section>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

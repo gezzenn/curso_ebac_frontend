@@ -1,0 +1,165 @@
+/*regras constantes*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', 'cursive';
+    color: #737373;
+}
+
+body {
+    background-image: url(./images/bg-image.png);
+    display: flex;
+    justify-content: center; 
+    height: 75vh;
+    margin: 0;
+}
+
+.container {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    width: 960px;
+    padding-top: 70px;
+}
+
+.content {
+    padding: 16px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 215px;
+}
+
+.title-page {
+    align-items: end;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.title-page h1 {
+    font-size:4.2rem;
+}
+
+.title-page img {
+    height: 90px;
+    padding: 0 10px;
+}
+
+.title-list {
+    display: flex;
+    align-items: center;
+}
+
+.title-list svg {
+    height: 24px;
+    width: 24px;
+    margin-left: 130px;
+    cursor: pointer;
+}
+
+.list ul li{
+    display: flex;
+}
+
+.content-add-task {
+    background-color: #cadede;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    width: 480px;
+}
+
+.content-add-task h2 {
+    font-size: 2.1rem;
+    margin-bottom: 10px;
+}
+
+.content-add-task input {
+    width: 375px;
+    padding: 15px 10px;
+    background-color: #ebfafa;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.content-add-task input::placeholder {
+    color: #cadede;
+}
+
+.content-add-task button {
+    background-color: #93d8b6;
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 190px;
+    border-radius: 30px;
+    color: #737373;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.content-add-task button:hover {
+    background-color: #85c2a3;
+}
+
+.content-list {
+    background-color: #cadede;
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.content-list h2 {
+    font-size: 2.1rem;
+}
+
+.list {
+    background-color: #ebfafa;
+    border-radius: 25px;
+    padding: 30px 30px;
+    margin-bottom: 20px;
+}
+
+.list ul li p {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    background-color: #cadede;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.list ul li p:hover {   
+    background-color: #bccece;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.list p {
+    font-size: 1.3rem;
+}
+
+ul {
+    align-items: center;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+li svg {
+    height: 42px;
+}
+
+li svg:hover {
+    cursor: pointer;
+}
+
+.concluded {
+    text-decoration: line-through;
+}
