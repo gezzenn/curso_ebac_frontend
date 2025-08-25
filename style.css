@@ -1,152 +1,165 @@
-/*Fazendo o reset*/
+/*regras constantes*/
 * {
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
+    font-family: 'Montserrat', 'cursive';
+    color: #737373;
+}
+
+body {
+    background-image: url(./images/bg-image.png);
+    display: flex;
+    justify-content: center; 
+    height: 75vh;
     margin: 0;
 }
 
-/*Colocando os textos em branco*/
-
-* {
-    color: white;
+.container {
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    width: 960px;
+    padding-top: 70px;
 }
 
-/*Adicionando cores ao cabeçalhos*/
-
-body > header {
-    background-color: #7557e1;
-    padding: 16px 0;
-    color: #F5F7FF;
+.content {
+    padding: 16px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 215px;
 }
 
-/*Organizando o cabeçalho*/
+.title-page {
+    align-items: end;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
 
-header .containers{
+.title-page h1 {
+    font-size:4.2rem;
+}
+
+.title-page img {
+    height: 90px;
+    padding: 0 10px;
+}
+
+.title-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
-/*Organizando o título*/
+.title-list svg {
+    height: 24px;
+    width: 24px;
+    margin-left: 130px;
+    cursor: pointer;
+}
 
-header .containers h1{
+.list ul li{
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    margin-left: 16px;
 }
 
-/*Ajustando a posição dos links de navegação*/
-
-header li {
-    display: inline;
-    justify-content: space-between;
-    margin-left: 16px;
+.content-add-task {
+    background-color: #cadede;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-bottom: 15px;
+    width: 480px;
 }
 
-/*Personalizando os links de navegação*/
-
-header li a {
-    color: white;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
+.content-add-task h2 {
+    font-size: 2.1rem;
+    margin-bottom: 10px;
 }
 
-/*Limitando os elementos da página*/
-
-.containers {
-    width: 1800px;
-    margin: 0px auto;
+.content-add-task input {
+    width: 375px;
+    padding: 15px 10px;
+    background-color: #ebfafa;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
 }
 
-/*Ajustando os posts*/
-
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.content-add-task input::placeholder {
+    color: #cadede;
 }
 
-/*Ajustando as imagens dos posts*/
-
-.articles article img {
-    width: 100%;
+.content-add-task button {
+    background-color: #93d8b6;
+    outline: none;
+    border: none;
+    padding: 15px;
+    width: 190px;
+    border-radius: 30px;
+    color: #737373;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
 
-/*Limitando o espaço dos posts na tela*/
-
-.articles article{
-    width: 30%;
+.content-add-task button:hover {
+    background-color: #85c2a3;
 }
 
-/*Adicionando espaçamento lateral entre as seções*/
-
-section {
-    display: flex;
-    padding: 16px 0;
+.content-list {
+    background-color: #cadede;
+    border-radius: 25px;
+    padding: 10px 30px;
 }
 
-/*Ajustando o espaçamento entre os posts*/
-
-section h3, 
-.articles article {
-    margin-bottom: 16px;
+.content-list h2 {
+    font-size: 2.1rem;
 }
 
-/*Adicionando uma margem entre os posts*/
-
-.articles article {
-    margin-top: 8px;
-    margin-bottom: 8px;
+.list {
+    background-color: #ebfafa;
+    border-radius: 25px;
+    padding: 30px 30px;
+    margin-bottom: 20px;
 }
 
-/*Personalizando os botões "Ler mais"*/
-
-.articles article a {
-    background-color: #7557e1;
-    color: white;
-    padding: 8px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: bold;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 8px;
+.list ul li p {
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+    background-color: #cadede;
+    border-radius: 25px;
+    padding: 10px;
 }
 
-/*Efeito de sublinhado no botão "Ler mais"*/
-
-.articles article a:hover {
-    text-decoration: underline;
+.list ul li p:hover {   
+    background-color: #bccece;
+    border-radius: 25px;
+    cursor: pointer;
 }
 
-/*Ajustando a posição das datas*/
-
-.article time {
-    display: block;
-    margin-bottom: 8px;
+.list p {
+    font-size: 1.3rem;
 }
 
-/*Adicionando fonte nos parágrafos*/
-
-.articles article p {
-    font-family: Arial, Helvetica, sans-serif;
+ul {
+    align-items: center;
 }
 
-/*Aumentando a fonte dos títulos dos posts*/
-
-.article article h3 {
-    font-size: 24px;
+.list li {
+    margin-bottom: 10px;
 }
 
-/*Aumentando a fonte dos títulos das seções*/
-
-section h2 {
-    font-size: 32px;
+li svg {
+    height: 42px;
 }
 
-/*Colorindo a seção Filmes*/
+li svg:hover {
+    cursor: pointer;
+}
 
-#filmes, #jogos, #animes {
-    background-color: #1f1f1f;
+.concluded {
+    text-decoration: line-through;
 }

@@ -3,131 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AllGeek</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>TaskFy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/checkbox-logo.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="containers">
-            <h1>Meu Portal Geek</h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="#filmes">Filmes</a>
-                    </li>
-                    <li>
-                        <a href="#jogos">Jogos</a>
-                    </li>
-                    <li>
-                        <a href="#animes">Animes</a>
-                    </li>
-                </ul>
-            </nav>
+    <div class="container">
+        <div class="title-page">
+            <h1>TaskFy</h1>
+            <img src="./images/checkbox-logo.png" alt="">
         </div>
-    </header>  
-    <main>
-        <section id="filmes"> <!--Seção de Filmes-->
-            <div class="containers">
-                <h2>Filmes:</h2>
-                <div class="articles">    
-                    <article>
-                        <img src="./imgs/films/deadpool-e-wolverine-ryan-reynolds-hugh-jackman-2.png" alt="Deadpool & Wolverine">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>                
-                        <h3>'Deadpool & Wolverine' bate recorde de maior bilheteria de um filme para maiores de idade!</h3>
-                        <p>Antes do fim de semana, o quarto desde a estreia na maior parte dos países, o filme da Marvel já era a segunda maior bilheteria do ano, atrás apenas de "Divertida Mente 2" (que também é da Disney e que ainda está em cartaz em alguns mercados, com arrecadação de US$ 1,62 bilhão).</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
-                    <article>
-                        <img src="imgs/films/ff5856b0-6323-11f0-af20-030418be2ca5.png" alt="Super-Man 2025">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>
-                        <h3>'Excêntrico filme B de ficção científica': a opinião de crítico da BBC sobre novo filme do Super-Homem</h3>
-                        <p>Superman não é apenas um novo filme, nem mesmo o primeiro de uma possível série de filmes. Ele marca o lançamento de todo um novo universo cinemático.Os últimos lançamentos da DC envolvendo super-heróis tiveram um desfecho desonroso em 2023.</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
-                    <article>
-                        <img src="./imgs/films/about-amazon-hero-nore-s1-ut-102-241022-epsaar-00447rc4.png" alt="Spider-Noir">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>
-                        <h3>Spider-Noir: Amazon divulga primeira foto e teaser de Nicolas Cage como o Homem-Aranha;</h3>
-                        <p>Cage lidera o elenco como o Spider-Noir, acompanhado de um time estelar que inclui o vencedor do Emmy Lamorne Morris, os indicados ao Oscar e vencedores do Emmy Brendan Gleeson, Abraham Popoola, Li Ju.</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
+        <section>
+            <div class="content">
+                <div class="content-add-task">
+                    <h2>adicionar uma tarefa:</h2>
+                    <form>
+                        <div class="name-task">
+                            <input type="text" id="name-task" placeholder="nome da tarefa">
+                        </div>
+                        <p id="message"></p>
+                        <div class="button-add">
+                            <button id="button-add" type="submit">Adicionar</button>
+                        </div>
+                    </form>
                 </div>
-            </div>
-        </section>
-        <section id="jogos">  <!--Seção de Jogos-->
-            <div class="containers">
-                <h2>Jogos:</h2>
-                <div class="articles">
-                    <article>
-                        <img src="./imgs/games/horizon-light-of-motiram.png" alt="Horizon Zero Dawn - Game">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>
-                        <h3>'Horizon' vs. 'Light of Motiram': Sony acusa Tencent de copiar game e processa por direitos autorais</h3>
-                        <p>Em ação aberta nos Estados Unidos, a fabricante japonesa diz que o novo jogo da concorrente, "Light of Motiram", é uma "cópia descarada" que imita diversos elementos distintos da franquia e ameaça confundir jogadores, de acordo com a agência de notícias Reuters.</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
-                    <article>
-                        <img src="imgs/games/roblox1.png" alt="Roblox">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>
-                        <h3>Roblox adota selfies em vídeos para avaliar idade de usuários e liberar conversas sem filtros</h3>
-                        <p>A plataforma de jogos Roblox liberou conversas sem filtros entre usuários com mais de 13 anos de idade que tenham verificado sua idade com selfies em vídeos. A plataforma de jogos Roblox liberou conversas sem filtros entre usuários com mais de 13 anos de idade que tenham verificado sua idade com selfies em vídeos.</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
-                    <article>
-                        <img src="./imgs/games/fortnite-festival-season-9.png" alt="Fortnite - Season 9">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>
-                        <h3>'Bonde do Brunão': Bruno Mars lança funk em português em parceria com o Fortnite Festival</h3>
-                        <p>Bruno Mars mostrou que aprendeu bem o português em suas passagens mais recentes pelo Brasil (em 2023 e 2024) e lançou o funk "Bonde do Brunão", nesta quarta-feira (18). A versão completa da faixa está disponível nas plataformas digitais. O vídeo traz as imagens gravadas pelas ruas do Brasil durante sua turnê no país.</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
+                <div class="content-list">
+                    <div class="title-list">
+                        <h2>lista de tarefas:</h2>
+                        <svg id="close" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                            <path d="M 7.71875 6.28125 L 6.28125 7.71875 L 23.5625 25 L 6.28125 42.28125 L 7.71875 43.71875 L 25 26.4375 L 42.28125 43.71875 L 43.71875 42.28125 L 26.4375 25 L 43.71875 7.71875 L 42.28125 6.28125 L 25 23.5625 Z"></path>
+                        </svg>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            
+                        </ul>
+                    </div>
                 </div>
-            </div>
         </section>
-        <section id="animes"> <!--Seção de Animes-->
-            <div class="containers">
-                <h2>Animes:</h2>
-                <div class="articles">
-                    <article>
-                        <img src="./imgs/animes/anime1.png" alt="Yano-kun's Ordinary Days">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>
-                        <h3>Anime Yano-kun's Ordinary Days revela 1º trailer e ilustração promocional</h3>
-                        <p>Em preparação para a estreia em outubro de 2025, o site oficial e os perfisOpens in a new tab do anime Yano-kun's Ordinary Days divulgaram hoje um novo trailer e uma ilustração promocional, além de anunciarem quatro novos membros do elenco e a música “POP LIFE”, da banda FANTASTICS (abertura de Vampire DormitoryOpens in a new tab), como tema de abertura da comédia romântica.</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
-                    <article>
-                        <img src="./imgs/animes/anime2.png" alt="Medalist">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>
-                        <h3>2ª temporada do anime Medalist estreia em janeiro de 2026</h3>
-                        <p>O site oficial e os perfisOpens in a new tab do anime Medalist divulgaram um novo teaser trailer com prévia do Torneio do Bloco Chubu, uma nova ilustração promocional com a frase “Vou brilhar mais do que qualquer um” e a confirmação da estreia da 2ª temporada para janeiro de 2026.</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
-                    <article>
-                        <img src="./imgs/animes/anime3.png" alt="Demon Slayer: Kimetsu no Yaiba Castelo Infinito">
-                        <header>
-                            <time datetime="30/07/2025">30/07/2025 ás 01:27</time>
-                        </header>
-                        <h3>Demon Slayer: Kimetsu no Yaiba Castelo Infinito se torna o filme mais rápido a alcançar 10 bilhões de ienes de bilheteria no Japão</h3>
-                        <p>Já faz mais de uma semana do lançamento de Demon Slayer: Kimetsu no Yaiba Castelo Infinito nos cinemas japoneses, e ele continua quebrando recordes.</p>
-                        <a href="#" title="Leia a notícia completa">Ler mais</a>
-                    </article>
-                </div>
-            </div>
-        </section>
-    </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="main.js"></script>
 </body>
 </html>
